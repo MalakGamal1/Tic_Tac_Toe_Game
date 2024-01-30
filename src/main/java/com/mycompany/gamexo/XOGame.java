@@ -177,8 +177,8 @@ public class XOGame extends JFrame implements ActionListener{
             OWins(2,4,6);
         
     else if (("O".equals(buttons[0].getText() )) &&
-            ("O".equals(buttons[1].getText() ))&&  
-            ("O".equals(buttons[2].getText() )))
+            ("O".equals(buttons[4].getText() ))&&  
+            ("O".equals(buttons[8].getText() )))
             OWins(0,4,8); 
      // Check is Draw
     else if (Player1_Turn) {
